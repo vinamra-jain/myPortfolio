@@ -1,0 +1,65 @@
+.portfolio{
+    background-color: #0f0c10;
+    color: #b7a6bd;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-content{
+    margin: 10px;
+    text-align: center;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    box-shadow: #b7a6bd 2px 5px 5px;
+}
+
+.link-resume{
+    color: #b7a6bd;
+    transition: all 0.5s;
+}
+
+.link-resume:hover{
+    color: #ab72c0 ;
+    font-size: 1.2em;
+    
+}
+
+.link-resume:active{
+    position: relative;
+    color: white ;
+    top:2px;
+}
+
+.smLink{
+    margin: 5px;
+    margin-top: 10px;
+    background-color: #ab72c0 ;
+    color: #0f0c10;
+    padding:10px;
+    width: 55px;
+    border-radius: 5px;
+    box-shadow: #9804ce 2px 5px 5px;
+}
+
+.smLink:hover{
+    background-color:#b7a6bd;
+    transition: background-color 0.5s;
+}
+.smLink:active{
+    position: relative;
+    box-shadow: none;
+    top: 5px;
+}
+
+body{
+    margin: 0;
+}
